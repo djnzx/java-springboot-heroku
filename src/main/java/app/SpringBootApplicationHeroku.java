@@ -13,8 +13,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * http://localhost:5000/h2-console
  */
 @SpringBootApplication
-public class SpringDataStep10Deploy {
+public class SpringBootApplicationHeroku {
   public static void main(String[] args) {
-    SpringApplication.run(SpringDataStep10Deploy.class);
+    SpringApplication.run(SpringBootApplicationHeroku.class);
   }
 }

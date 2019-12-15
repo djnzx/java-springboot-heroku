@@ -35,10 +35,10 @@ as a basis of our application we gonna take minimal spring-data application with
 - build your app: `mvn install`. As a result in the folder `target` you must see file like `java-springboot-heroku-template-0.0.1-SNAPSHOT.jar`. It is named according `pom.xml` sections `<artifactId>` and `<version>` 
 - add `Procfile` file to the root of the project with the contents of `web: java -jar target/java-springboot-heroku-template-0.0.1-SNAPSHOT.jar`. File must contain exactly one line.
 - run your app locally `heroku local:start`
-- go to browser and check: `http://localhost:5000/person`. Everything should work.
+- go to browser and check: `http://localhost:5000/person`. Everything should work
 - commit everything `git commit -m "--final stage"`
 - push to github/gitlab: `git push origin master`
-- push to heroku: `git push heroku master`.
+- push to heroku: `git push heroku master`
 - test link provided by `heroku` previously on app creation step: `https://mysterious-refuge-92638.herokuapp.com` with browser and `Postman`
 - don't forget about your mappings: `/person`, etc, add them if need `https://mysterious-refuge-92638.herokuapp.com/person`
 - relax
@@ -47,5 +47,5 @@ as a basis of our application we gonna take minimal spring-data application with
 ### Links
 - [Heroku](https://www.heroku.com)
 - Heroku official [link](https://devcenter.heroku.com/articles/getting-started-with-java) about Java deployment
-- Heroku official [link](https://github.com/heroku/java-getting-started) minimal configuration which can be deployed
+- Heroku official [link](https://github.com/heroku/java-getting-started) java repository which can be deployed
 - [alexr github link](https://github.com/alexr007)

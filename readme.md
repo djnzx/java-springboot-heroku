@@ -36,6 +36,7 @@ as a basis of our application we gonna take minimal spring-data application with
 - run your app locally `heroku local:start`
 - goto browser and run your app: `http://localhost:5000/person`. Everything looks fine
 - commit everything `git commit -m "--final stage"`
+- push to github/gitlab: `git push origin master`
 - push to heroku: `git push heroku master`
 -
 -

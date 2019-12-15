@@ -47,5 +47,5 @@ as a basis of our application we gonna take minimal spring-data application with
 ### Links
 - [Heroku](https://www.heroku.com)
 - Heroku official [link](https://devcenter.heroku.com/articles/getting-started-with-java) about Java deployment
-- Heroku official [link](https://github.com/heroku/java-getting-started) java repository which can be deployed
+- Heroku official [link](https://github.com/heroku/java-getting-started) to their java repository which can be deployed
 - [alexr github link](https://github.com/alexr007)

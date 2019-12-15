@@ -37,9 +37,10 @@ as a basis of our application we gonna take minimal spring-data application with
 - goto browser and run your app: `http://localhost:5000/person`. Everything looks fine
 - commit everything `git commit -m "--final stage"`
 - push to github/gitlab: `git push origin master`
-- push to heroku: `git push heroku master`
--
--
+- push to heroku: `git push heroku master`.
+- test given link `https://mysterious-refuge-92638.herokuapp.com/person` with browser and `Postman`
+- relax
+- enjoy
 
 ### Links
 - [Heroku](https://www.heroku.com)

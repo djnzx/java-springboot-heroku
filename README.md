@@ -1,6 +1,7 @@
-### SpringBoot Application ready to be deployed on Heroku hosting
+## SpringBoot Application ready to be deployed on Heroku hosting
 
-as a basis of our application we gonna take minimal spring-data application with one endpoint and database `step21` from `spring-steps` repository.
+- based on the [project](https://github.com/alexr007/java-heroku)
+- as a basis of our application we gonna take minimal spring-data application with one endpoint and database `step21` from [spring-steps](https://github.com/alexr007/spring-steps) repository.
 
 ### Whole process overview
 
@@ -45,7 +46,10 @@ as a basis of our application we gonna take minimal spring-data application with
 - enjoy
 
 ### Links
-- [Heroku](https://www.heroku.com)
-- Heroku official [link](https://devcenter.heroku.com/articles/getting-started-with-java) about Java deployment
-- Heroku official [link](https://github.com/heroku/java-getting-started) to their java repository which can be deployed
-- [alexr github link](https://github.com/alexr007)
+- Heroku hosting company: [here](https://www.heroku.com)
+- Heroku official documentation in general: [here](https://devcenter.heroku.com/articles/getting-started-with-java)
+- Heroku official documentation about JDBC connection: [here](https://devcenter.heroku.com/articles/connecting-to-relational-databases-on-heroku-with-java)
+- Heroku official github code: [here](https://github.com/heroku/java-getting-started)
+- Baeldung link how to create runnable `jar` file: [here](https://www.baeldung.com/executable-jar-with-maven)
+- alexr github account: [here](https://github.com/alexr007)
+- alexr's onother heroku-project: [here](https://github.com/alexr007/java-heroku)

@@ -5,10 +5,13 @@
 
 ### Whole process overview
 
-- creating personal account on heroku.com
-- creating personal SSH-keys and uploading them to heroku.com
-- downloading and installing their command line tool `Heroku CLI`
-- creating heroku application
+- creating personal account on [Heroku](http://heroku.com)
+- creating personal SSH-keys and uploading them to [Heroku](https://devcenter.heroku.com/articles/keys)
+- downloading and installing their command line tool [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) 
+- creating heroku application `heroku create`
+  => 1. app created: https://cryptic-cove-36231.herokuapp.com/
+  => 2. git repository created: https://git.heroku.com/cryptic-cove-36231.git
+     2.1. details: `git remote -v`
 - making some changes in our project (extra files, configuration, etc)
 - adding one more git upstream
 - pushing source code to heroku upstream added in previous step 

@@ -29,6 +29,9 @@
 
 ### Some useful details: 
 
+- to see logs on remote: `heroku logs --tail`
+
+
 - to start our web server on remote machine, we must take into account that we should start our web server on another port number, which will be provided us via OS environment variable `PORT`. If variable isn't provided - we must start on port `5000`, see `application.properties` according to `server.port` section
 - to log in to heroku, type in the terminal `heroku login`
 - to create an app, type `heroku create`. As a result you will be given two links, something like that:

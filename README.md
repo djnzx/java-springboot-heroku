@@ -26,6 +26,9 @@
   - `artifactId` and `version` must conform `Procfile` contents
   - `Java version (8)`
   - plugin: `spring-boot-maven-plugin` (with properties)
+- `application.properties`
+  - `server.port=${PORT:5000}` (take from ENV or 5000 by default) 
+
 
 ### Some useful details: 
 

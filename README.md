@@ -13,9 +13,19 @@
   => 2. git repository created: https://git.heroku.com/cryptic-cove-36231.git
      2.1. details: `git remote -v`
 - making some changes in our project (extra files, configuration, etc)
-- adding one more git upstream
-- pushing source code to heroku upstream added in previous step 
+- commit & push
+    `git commit -m "..."`
+    `git push origin master` (github)
+    `git push heroku master` (heroku)
 - starting enjoying working app in the browser. :) 
+
+### Project requirements:
+
+- `Procfile` in the root of the project with proper content
+- `pom.xml`:
+  - `artifactId` and `version` must conform `Procfile` contents
+  - `Java version (8)`
+  - plugin: `spring-boot-maven-plugin` (with properties)
 
 ### Some useful details: 
 
